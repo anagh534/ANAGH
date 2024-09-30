@@ -45,7 +45,7 @@ function Home() {
             <p className="lead">
               I help businesses grow by crafting amazing web experiences. <br /> If you’re looking for a developer that likes to get stuff done, let's talk!
             </p>
-            <a href="mailto:abdurrahman_sinan@hotmail.com" className="btn btn-bg ">
+            <a href="mailto:anaghkrkkl@gmail.com" className="btn btn-bg ">
               Let's Talk <i className="fas fa-envelope"></i>
             </a>
           </div>
