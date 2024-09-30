@@ -23,10 +23,13 @@ function NavBar() {
                     </form>
                     <ul className="navbar-nav mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            <a className="nav-link" href="#"><i className="fa-brands fa-instagram"></i> Instagram</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Link</a>
+                            <a className="nav-link" href="#"><i className="fa-brands fa-linkedin"></i> Linkedin</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#"><i class="fa-brands fa-github"></i> Github</a>
                         </li>
                     </ul>
                 </div>
