@@ -1,0 +1,10 @@
+:root {
+  --bg1: #292F36;
+  --bg2: #1A1E23;
+  --brand1: #12F7D6; 
+}
+body{
+  background: var(--bg1);
+  color: white ;
+  font-family: monospace;
+}
