@@ -18,7 +18,7 @@ const About = () => {
                         <div className="card text-center bg-dark text-light p-3 mb-5" style={{ borderRadius: '15px'}}>
                             <p style={{textAlign: 'left'}}>
                                 <span style={{fontSize: '22px',color: '#12F7D6'}}>Hello!</span> <br />
-                                My name is ANAGH and I specialize in web developement, app developement that utilizes <span style={{color: '#12F7D6'}}>HTML, CSS, JS, REACT, NODEJS, EXPRESS and FLUTTER</span> etc. <br />
+                                My name is ANAGH and I specialize in web developement, app developement that utilizes <span style={{color: '#12F7D6'}}>HTML, CSS, JS, REACT, NODEJS, EXPRESS <br /> and FLUTTER</span> etc. <br />
                                 I am a highly motivated individual and eternal optimist dedicated to writing clear, concise, robust code that works. Striving to never stop learning and improving. <br />
                                 I like to have my perspective and belief systems challenged so that I see the world through new eyes. <br />
                             </p>

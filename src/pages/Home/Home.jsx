@@ -1,7 +1,7 @@
 import React from 'react'
-import NavBar from '../../components/NavBar'
 import './Home.css'
 import profile from '../../assets/profile.jpg'
+import CountUp from 'react-countup'
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
 
         {/* Left Section - Profile Card */}
         <div className="col-md-4 mb-4">
-          <div className="card text-center bg-dark text-light p-3" style={{ borderRadius: '15px', border: '1px solid #28c3b3' }}>
+          <div className="card text-center bg-dark text-light p-3" style={{ borderRadius: '16px', border: '3px solid #28c3b3' }}>
             <img
               src={profile}
               alt="profile"
@@ -54,13 +54,25 @@ function Home() {
           <div className="row">
             <div className="col-md-4 mb-4">
               <div className="card text-center bg-dark text-light p-4">
-                <h2 className="display-4 text">10+</h2>
+                <h2 className="display-4 text pg">
+                  <CountUp
+                    start={0}
+                    end={12}
+                    duration={6}
+                  />
+                  +</h2>
                 <p className="lead">Programming Languages</p>
               </div>
             </div>
             <div className="col-md-4 mb-4">
               <div className="card text-center bg-dark text-light p-4">
-                <h2 className="display-4 text">6+</h2>
+                <h2 className="display-4 text dt">
+                  <CountUp
+                    start={0}
+                    end={6}
+                    duration={3}
+                  />
+                  +</h2>
                 <p className="lead">Development Tools</p>
               </div>
             </div>
@@ -72,7 +84,13 @@ function Home() {
               </div> */}
             <div className="col-md-4 mb-4">
               <div className="card text-center bg-dark text-light p-4">
-                <h2 className="display-4 text">25+</h2>
+                <h2 className="display-4 text pj">
+                  <CountUp
+                    start={0}
+                    end={25}
+                    duration={6}
+                  />+
+                </h2>
                 <p className="lead">Projects</p>
               </div>
             </div>
