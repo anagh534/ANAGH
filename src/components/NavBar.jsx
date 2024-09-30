@@ -29,7 +29,7 @@ function NavBar() {
                             <a className="nav-link" href="#"><i className="fa-brands fa-linkedin"></i> Linkedin</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#"><i class="fa-brands fa-github"></i> Github</a>
+                            <a className="nav-link" href="#"><i className="fa-brands fa-github"></i> Github</a>
                         </li>
                     </ul>
                 </div>

@@ -26,7 +26,7 @@ function Home() {
               <p><i className="fas fa-briefcase"></i> Freelancer</p>
               <p><i className="fa-brands fa-whatsapp"></i> <a href="https://wa.me/918075541805" target='_blank' style={{ textDecoration: 'none', color: 'white' }}>8075541805</a></p>
               <div className="badge-container mb-4">
-                <span className="badge mx-1"><i class="fa-brands fa-node"></i> MERN STACK</span>
+                <span className="badge mx-1"><i className="fa-brands fa-node"></i> MERN STACK</span>
                 <span className="badge mx-1"><i className="fa-brands fa-flutter"></i> FLUTTER</span>
               </div>
               <a href="#" className="btn btn-outline-info">
