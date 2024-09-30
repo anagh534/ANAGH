@@ -1,0 +1,43 @@
+/* App.css */
+body {
+    background-color: #292F36;
+}
+
+.badge-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #221919;
+}
+
+.card h3 {
+    font-size: 1.75rem;
+}
+
+a.text-info:hover {
+    text-decoration: underline;
+}
+
+.display-3 {
+    font-size: 2.75rem;
+}
+
+.btn-outline-info {
+    border-color: #12F7D6;
+    color: #12F7D6;
+}
+
+.btn-outline-info:hover {
+    background-color: #12F7D6;
+    color: #fff;
+}
+
+.text{
+    color: #12F7D6 !important;
+}
+.btn-bg{
+    background-color: #12F7D6 !important;
+    color: white;
+}
