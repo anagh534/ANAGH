@@ -1,0 +1,24 @@
+#about{
+    background: url('../../assets/about-bg.png');
+}
+.about-top{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+.about-top img{
+    height: 75px;
+}
+.about-bottom{
+    display: flex;
+    align-items: center;
+}
+.about-right{
+    display: flex;
+    justify-content: center;
+}
+.about-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

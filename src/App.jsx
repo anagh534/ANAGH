@@ -1,10 +1,16 @@
 import 'react'
 import Home from './pages/Home/Home'
+import NavBar from './components/NavBar'
+import About from './pages/About/About'
 
 function App() {
 
   return (
-    <Home />
+    <>
+      <NavBar />
+      <Home />
+      <About />
+    </>
   )
 }
 
