@@ -2,7 +2,7 @@
     --brand1: #12F7D6; 
   }
 .skills {
-    height: 100vh;
+    margin-bottom: 5rem;
 }
 .scroll{
     display: flex;

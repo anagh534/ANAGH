@@ -1,8 +1,7 @@
-.works{
-    height: 100vh;
+.works {
     background: url('../../assets/works.png') no-repeat center;
 }
 
-.project-image{
+.project-image {
     width: 30rem;
 }
