@@ -1,8 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Works.css'
 import scroll from '../../assets/scroll.png'
-import project1 from '../../assets/1.png'
-import project2 from '../../assets/2.png'
+import images from '../../utils/LoadImage'
 
 function Works() {
   return (
@@ -18,12 +17,13 @@ function Works() {
         <div className="row">
           <div id="carouselExample" class="carousel slide text-center">
             <div class="carousel-inner">
-              <div class="carousel-item text-center active">
-                <img src={project1} class="img-fluid project-image" alt="..." />
-              </div>
-              <div class="carousel-item text-center active">
-                <img src={project2} class="img-fluid project-image" alt="..." />
-              </div>
+              {
+                images.map((image, index) =>
+                  <div key={index} class="carousel-item text-center active">
+                    <img src={image} class="img-fluid project-image" alt="..." />
+                  </div>
+                )
+              }
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -33,7 +33,7 @@ function Works() {
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-            <button className='btn btn-primary'>View Website</button>
+            <button className='btn btn-light'>View Website</button>
           </div>
         </div>
       </div>
