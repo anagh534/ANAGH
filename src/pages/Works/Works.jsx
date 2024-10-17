@@ -19,7 +19,13 @@ function Works() {
             <div className="carousel-inner">
               {
                 images.map((data, index) =>
-                  <div key={index} className="carousel-item text-center active">
+                  index == 0 ? <div key={index} className="carousel-item text-center active">
+                    <a href={data.url} target='_blank' className='text-light'>View Website</a>
+                    <br />
+                    <img src={data.img} className="img-fluid project-image" alt="..." />
+                  </div> : <div key={index} className="carousel-item text-center">
+                    <a href={data.url} target='_blank' className='text-light'>View Website</a>
+                    <br />
                     <img src={data.img} className="img-fluid project-image" alt="..." />
                   </div>
                 )
@@ -33,7 +39,6 @@ function Works() {
               <span className="carousel-control-next-icon" aria-hidden="true"></span>
               <span className="visually-hidden">Next</span>
             </button>
-            <button className='btn btn-light'>View Website</button>
           </div>
         </div>
       </div>
