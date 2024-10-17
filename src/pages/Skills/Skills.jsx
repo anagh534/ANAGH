@@ -27,7 +27,7 @@ function Skills() {
             <div className="col-lg-6">
               <div className="card mb-3" style={{ minHeight: '137px' }}>
                 <div className="card-body text-center">
-                  <i class="fa-solid fa-mobile-screen-button"></i>
+                  <i className="fa-solid fa-mobile-screen-button"></i>
                   <h5 className="card-title">APP DEVELOPMENT</h5>
                   <p className="card-text"><small className="text-body-secondary"><i className="fa-brands fa-flutter fa-beat "></i> FLUTTER</small></p>
                 </div>
