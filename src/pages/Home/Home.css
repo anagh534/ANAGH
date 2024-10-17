@@ -39,5 +39,8 @@ a.text-info:hover {
 }
 .btn-bg{
     background-color: #12F7D6 !important;
-    color: white;
+    color: black;
+}
+.btn-bg:hover{
+    color: black;
 }

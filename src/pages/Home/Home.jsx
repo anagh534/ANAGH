@@ -29,9 +29,11 @@ function Home() {
                 <span className="badge mx-1"><i className="fa-brands fa-node"></i> MERN STACK</span>
                 <span className="badge mx-1"><i className="fa-brands fa-flutter"></i> FLUTTER</span>
               </div>
-              <a href="#" className="btn btn-outline-info">
+              <button className="btn btn-bg" onClick={
+                ()=>location.replace('https://drive.google.com/file/d/1LDScBlIZ6DPW2BBGKeOIHqQtFoOmY0HU/view?usp=sharing')
+              }>
                 Download CV <i className="fas fa-download"></i>
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -45,7 +47,7 @@ function Home() {
             <p className="lead">
               I help businesses grow by crafting amazing web experiences. <br /> If you’re looking for a developer that likes to get stuff done, let's talk!
             </p>
-            <a href="mailto:anaghkrkkl@gmail.com" className="btn btn-bg ">
+            <a href="mailto:anaghkrkkl@gmail.com" className="btn btn-bg">
               Let's Talk <i className="fas fa-envelope"></i>
             </a>
           </div>

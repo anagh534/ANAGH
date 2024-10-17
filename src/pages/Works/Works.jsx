@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './Works.css'
 import scroll from '../../assets/scroll.png'
 import images from '../../utils/LoadImage'
@@ -18,9 +18,9 @@ function Works() {
           <div id="carouselExample" class="carousel slide text-center">
             <div class="carousel-inner">
               {
-                images.map((image, index) =>
+                images.map((data, index) =>
                   <div key={index} class="carousel-item text-center active">
-                    <img src={image} class="img-fluid project-image" alt="..." />
+                    <img src={data.img} class="img-fluid project-image" alt="..." />
                   </div>
                 )
               }
