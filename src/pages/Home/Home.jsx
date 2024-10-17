@@ -5,7 +5,7 @@ import CountUp from 'react-countup'
 
 function Home() {
   return (
-    <div className="container-fluid bg-dark text-light p-5" style={{ minHeight: '100vh' }}>
+    <div className="container-fluid bg-dark text-light mt-5 p-5" style={{ minHeight: '100vh' }}>
       <div className="row">
 
         {/* Left Section - Profile Card */}

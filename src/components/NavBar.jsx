@@ -3,7 +3,7 @@ import './NavBar.css'
 
 function NavBar() {
     return (
-        <nav className="navbar navbar-expand-lg custom-navbar">
+        <nav className="navbar navbar-expand-lg fixed-top custom-navbar">
             <div className="container">
                 <a className="navbar-brand" href="/">ANAGH K R</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">

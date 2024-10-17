@@ -4,6 +4,10 @@
     --brand1: #12F7D6;
 }
 
+.custom-navbar{
+    background-color: var(--bg2);
+}
+
 /* Custom colors for nav items */
 .custom-navbar .navbar-nav .nav-link {
     color: white;
