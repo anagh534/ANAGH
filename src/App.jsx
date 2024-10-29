@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import About from './pages/About/About'
 import Skills from './pages/Skills/Skills'
 import Works from './pages/Works/Works'
+import Blogs from './pages/Contact/Contact'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Skills />
       <Works />
+      <Blogs/>
     </>
   )
 }
