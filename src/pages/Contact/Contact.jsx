@@ -37,7 +37,7 @@ function Contact() {
                     <p>I’m currently available for freelance work</p>
                 </div>
                 <div className="container">
-                    <form action="https://script.google.com/macros/s/AKfycbxAxzco4A2pA8aQpdlpTlKtCwbFXfUKDyED9iZD5sgxzzhZx4GWXZ42_XJ9S12qN6x89g/exec" method='post'>
+                    <form action="https://script.google.com/macros/s/AKfycbwt9ab1MdnnBImOdvBNDMvbm4m6a-2CXPSVMPuNaABhIp6t9sON96M8mT6BHCZ95y5wLw/exec" method='post'>
                         <div className="row">
                             <div className="col">
                                 <div className="form-floating">
