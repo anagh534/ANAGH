@@ -22,3 +22,10 @@
     flex-direction: column;
     align-items: center;
 }
+.btn-bg{
+    background-color: #12F7D6 !important;
+    color: black;
+}
+.btn-bg:hover{
+    color: black;
+}
