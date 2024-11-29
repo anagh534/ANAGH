@@ -27,13 +27,13 @@ function NavBar() {
                     </form>
                     <ul className="navbar-nav mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="#"><i className="fa-brands fa-instagram"></i> Instagram</a>
+                            <a className="nav-link" target='_blank' href="https://instagram.com/mr._uni_que___"><i className="fa-brands fa-instagram"></i> Instagram</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#"><i className="fa-brands fa-linkedin"></i> Linkedin</a>
+                            <a className="nav-link" target='_blank' href="https://www.linkedin.com/in/anagh-k-r/"><i className="fa-brands fa-linkedin"></i> Linkedin</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#"><i className="fa-brands fa-github"></i> Github</a>
+                            <a className="nav-link" target='_blank' href="https://github.com/anagh534"><i className="fa-brands fa-github"></i> Github</a>
                         </li>
                     </ul>
                 </div>
