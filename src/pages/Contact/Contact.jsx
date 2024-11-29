@@ -41,13 +41,13 @@ function Contact() {
                         <div className="row">
                             <div className="col">
                                 <div className="form-floating">
-                                    <input type="text" name="name" id="name" onChange={(e) => setName(e.target.value)} className='form-control' placeholder='Enter Your Name' />
+                                    <input type="text" name="name" required id="name" onChange={(e) => setName(e.target.value)} className='form-control' placeholder='Enter Your Name' />
                                     <label htmlFor="name" className='text-dark'>Name</label>
                                 </div>
                             </div>
                             <div className="col">
                                 <div className="form-floating">
-                                    <input type="email" name="email" id="email" onChange={(e) => setEmail(e.target.value)} className='form-control' placeholder='Enter Your Email' />
+                                    <input type="email" name="email" required id="email" onChange={(e) => setEmail(e.target.value)} className='form-control' placeholder='Enter Your Email' />
                                     <label htmlFor="email" className='text-dark'>Email</label>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ function Contact() {
                         <div className="row">
                             <div className="col">
                                 <div className="form-floating">
-                                    <textarea name="message" id="msg" style={{ height: '8rem' }} onChange={(e) => setMessage(e.target.value)} placeholder='Enter your needs' className='form-control'></textarea>
+                                    <textarea name="message" id="msg" required style={{ height: '8rem' }} onChange={(e) => setMessage(e.target.value)} placeholder='Enter your needs' className='form-control'></textarea>
                                     <label htmlFor="msg" className='text-dark'>Message</label>
                                 </div>
                             </div>
