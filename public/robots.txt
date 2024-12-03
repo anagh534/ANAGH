@@ -1,9 +1,4 @@
-# Allow all search engines to crawl the entire site except the admin
 User-agent: *
+Allow: /
 
-# Block any PDF files from being crawled
-Disallow: /*.pdf$
-
-# Allow Googlebot to access everything
-User-agent: Googlebot
-Disallow:
+Sitemap: https://anagh534.github.io/sitemap.xml
