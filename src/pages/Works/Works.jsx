@@ -1,6 +1,6 @@
 import React from 'react'
 import './Works.css'
-import scroll from '../../assets/scroll.png'
+import scroll from '../../assets/scroll.webp'
 import images from '../../utils/LoadImage'
 
 function Works() {

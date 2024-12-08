@@ -1,6 +1,6 @@
 import React from 'react'
 import './Skills.css'
-import scroll from '../../assets/scroll.png'
+import scroll from '../../assets/scroll.webp'
 
 function Skills() {
   return (

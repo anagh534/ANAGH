@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import profile from '../../assets/profile.jpg'
+import profile from '../../assets/profile.webp'
 import CountUp from 'react-countup'
 
 function Home() {

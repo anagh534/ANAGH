@@ -1,8 +1,8 @@
-import image1 from '../assets/projects/1.png';
-import image2 from '../assets/projects/2.png';
-import image3 from '../assets/projects/3.png';
-import image4 from '../assets/projects/4.png';
-import image5 from '../assets/projects/5.png';
+import image1 from '../assets/projects/1.webp';
+import image2 from '../assets/projects/2.webp';
+import image3 from '../assets/projects/3.webp';
+import image4 from '../assets/projects/4.webp';
+import image5 from '../assets/projects/5.webp';
 
 const images = [
     {

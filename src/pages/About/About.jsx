@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
-import scroll from '../../assets/scroll.png'
-import about from '../../assets/about.png'
+import scroll from '../../assets/scroll.webp'
+import about from '../../assets/about.webp'
 import { Link } from 'react-router'
 
 const About = () => {
