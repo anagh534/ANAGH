@@ -41,10 +41,10 @@ function Home() {
         {/* Right Section */}
         <div className="col-md-8">
           <div className="text-center text-md-start mb-5">
-            <h1 className="display-3">
+            <h1>
               Hey, <br /> I'm <span className="text">ANAGH</span>,<br />
             </h1>
-            <p className="lead">
+            <p>
               I help businesses grow by crafting amazing web experiences. <br /> If you’re looking for a developer that likes to get stuff done, let's talk!
             </p>
             <a href="mailto:anaghkrkkl@gmail.com" className="btn btn-bg">
